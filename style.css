@@ -1,0 +1,66 @@
+body {
+    background: url(img/squidgame.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.usernameBox {
+    color: red
+}
+
+
+h1 {
+    position:absolute;
+    font-size: 1.5rem;
+    top: 35px;
+
+    color: rgb(93, 10, 10);
+}
+.button {
+    text-transform:capitalize;
+    margin: 5px;
+    padding: 5px;
+}
+
+span.box {
+    position: relative;
+}
+
+.demo{
+    display:block;
+    width: 20%;
+    top:1rem;
+    padding: 1px;
+    background-color: rgb(65, 20, 20); 
+}
+
+
+.box {
+    display:block;
+    width: 46%;
+    top:12rem;
+    padding: 1px;
+    background-color: rgb(65, 20, 20);
+    
+    
+}
+
+
+.header {    
+    display: flex;
+    background-color: rgb(50, 3, 3);
+    height: 100px;    
+    width: 100%;
+}
+
+.footer {
+    position:absolute;
+    font-size: 1.5rem;
+    bottom: 1px;
+
+    color: rgb(93, 10, 10);
+}
+
+
